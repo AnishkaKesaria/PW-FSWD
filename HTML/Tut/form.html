@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tut</title>
+</head>
+<body>
+    <form method="get" target="_blank" action="/signup">
+        <fieldset>
+            <legend> User Details</legend>
+            <label for="name">Enter your name: </label>
+            <input type="text" id="name" name="username">
+            <br> <br>
+            <label for="address">Please enter your address: </label>
+            <textarea name="useraddress" id="address" cols="20"     rows="10" ></textarea>
+            <br> <br>
+            <label for="dob">DOB</label>
+            <input type="date" name="userdob" id="dob">
+            <br> <br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="userpassword">
+            <br> <br>
+            <label for="gender">Select Gender: </label>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="none">Not disclosing</label>
+            <input type="radio" id="none" name="gender" value="none">
+            <br> <br>
+            Select favourite movies: <br>
+            <label for="Avenger">Avengers</label>
+            <input type="checkbox" name="Avenger" id="Avenger"> 
+            <label for="Thor">Thor</label>
+            <input type="checkbox" name="Thor" id="Thor"> 
+            <label for="Ironman">Ironman</label>
+            <input type="checkbox" name="Ironman" id="Ironman">
+            <br> <br>
+            <input type="submit"> 
+        </fieldset>
+    </form>
+</body>
+</html>
