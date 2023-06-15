@@ -33,6 +33,7 @@ nav{
 
 .nav-left img{
     height: 5vh;
+    cursor: pointer;
 }
 
 .nav-left ul{
@@ -40,6 +41,7 @@ nav{
     gap: 50px;
     font-weight: 500;
     align-items: center;
+    cursor: pointer;
 }
 
 button{
@@ -51,6 +53,11 @@ button{
     border-radius: 10px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.nav-right button{
+    border-radius: 5px;
+    padding: 6px 25px;
 }
 
 section{
